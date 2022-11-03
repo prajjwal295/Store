@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav {
+    display: flex;
+    height: 5rem;
+    position: relative;
+    /* background-color: black;
+opacity: 0.6; */
+
+}
+
+.nav::before {
+    content: "";
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+    opacity: 0.6;
+
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 12px;
+    display: block;
+}
+
+
+.nav ul li {
+    list-style: none;
+    padding: 25px 20px;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#section {
+    padding: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* text-shadow:  2px  2px black; */
+}
+
+#bck {
+    position: relative;
+}
+
+#bck::before {
+    content: "";
+    position: absolute;
+    background: url('bg.png') no-repeat center/cover;
+    height: 108%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#section h1 {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+#section p {
+    display: block;
+    margin: 10px auto;
+    width: 700px;
+
+}
+
+button {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 2px 2px;
+    border-style: outset;
+    background-color: aquamarine;
+    border: 3px solid;
+}
+
+#sub {
+    margin: 25px auto;
+    display:flex;
+    flex-direction: row;
+
+
+}
+
+.box {
+    display: flex;
+    border: 4px solid red;
+    flex-direction: column;
+    width: 400px;
+    /* padding: 25px 25px; */
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: darkgrey;
+}
+
+
+.box img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 50px;
+}
+
+.gg {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px red;
+    text-decoration: underline;
+}
+
+#clients {
+    padding: 28px 0px;
+    height: 300px;
+    position: relative;
+}
+
+#clients::before {
+    content: "";
+    position: absolute;
+    background: url('gc.jpg') no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#clients h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+#clients .pic {
+
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 30px 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 23px;
+}
+
+footer {
+    text-align: center;
+    border: 0.1px solid #060202;
+    background-color: grey;
+}
+
+#frm {
+    position: relative;
+    margin-top: 54px;
+
+}
+
+#frm::before {
+    content: "";
+    position: absolute;
+    background: url('gc2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#frm h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding-top: 23px;
+}
+
+#frm .hey {
+    font-size: 2rem;
+    width: 50%;
+
+    display: block;
+    margin: auto;
+
+   
+}
+
+#frm input {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+#frm textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+#frm .hey label {
+    text-align: left;
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+#frm  #btn {
+    width: 100px;
+    justify-content: center;
+    height: 40px;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+    display:block;
+    position:relative;
+}
